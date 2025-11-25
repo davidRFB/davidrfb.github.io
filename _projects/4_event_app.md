@@ -1,33 +1,41 @@
 ---
 layout: page
-title: Full-Stack Event App
-description: Web application with Supabase backend for event management
+title: Caju Social Club
+description: Full-stack event management web application with Supabase backend
 importance: 4
 category: software
 ---
 
-## Full-Stack Event Management Application
+## Caju Social Club - Event Management Platform
+
+**Live Site**: [cajusocialclub.com](https://cajusocialclub.com)
 
 ### Overview
 
-Built a web application allowing users to create profiles, select interests, and register for events.
+Designed and developed a full-stack web application that enables users to create profiles, select interests, and register for community events. The platform streamlines event discovery and registration for social club members.
 
-### Technical Stack
+### Technical Architecture
 
-- **Frontend**: JavaScript
-- **Backend/Auth/DB**: Supabase (PostgreSQL)
-- **Development**: AI-Assisted Development workflows
+- **Frontend**: JavaScript with responsive UI design
+- **Backend**: Supabase (PostgreSQL-based Backend-as-a-Service)
+- **Authentication**: Supabase Auth with secure user session management
+- **Database**: PostgreSQL with Row-Level Security (RLS) policies
+
+### Key Features
+
+- User profile creation and management
+- Interest-based event recommendations
+- Event registration and tracking
+- Secure authentication flows
+- Real-time database updates
 
 ### Data Engineering
 
-- Leveraged Supabase (PostgreSQL) to architect the database schema
-- Wrote SQL policies for data security
-- Managed user authentication flows
-
-### Methodology
-
-Utilized AI tools to accelerate frontend development, demonstrating the ability to ship functional software rapidly by combining "vibe coding" (logic-first prompting) with solid backend engineering principles.
+- Architected the relational database schema in PostgreSQL
+- Implemented Row-Level Security (RLS) policies for data protection
+- Designed efficient queries for event filtering and user matching
+- Managed user authentication and session handling via Supabase Auth
 
 ### Technologies Used
 
-`JavaScript` `Supabase` `PostgreSQL` `SQL` `REST APIs`
+`JavaScript` `Supabase` `PostgreSQL` `SQL` `REST APIs` `Row-Level Security`

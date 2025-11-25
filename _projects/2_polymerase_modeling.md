@@ -9,8 +9,6 @@ category: research
 
 ## Biophysical Modeling of DNA Polymerases
 
-Collaboration with Prof. Gianni De Fabritiis (UPF Barcelona) at the Italian Institute of Technology (IIT)
-
 ### Objective
 
 Elucidate the atomistic mechanism of nucleotide selection in high-fidelity polymerases to understand fidelity and assist in antiviral drug design.
@@ -23,7 +21,7 @@ Elucidate the atomistic mechanism of nucleotide selection in high-fidelity polym
 ### Free Energy Calculations
 
 - Performed rigorous **Alchemical Free Energy Perturbation (FEP)** calculations (>1 microsecond aggregate sampling) to quantify binding affinities of correct vs. incorrect nucleotides
-- **Methodological Innovation**: Applied the Alchemical Transfer Method (ATM) using OpenMM during a research stay at Universitat Pompeu Fabra (Barcelona), validating results against standard Amber FEP protocols
+- ** Other Methodological approaches **: Applied the Alchemical Transfer Method (ATM) using OpenMM during a research stay at Universitat Pompeu Fabra (Barcelona).
 
 ### Impact
 
@@ -31,4 +29,4 @@ Published findings in **Journal of Chemical Information and Modeling**, providin
 
 ### Technologies Used
 
-`Amber` `OpenMM` `GROMACS` `Python` `HPC/SLURM` `GPU Computing`
+`Amber` `OpenMM` `FEP` `Python` `HPC/SLURM` `GPU Computing`

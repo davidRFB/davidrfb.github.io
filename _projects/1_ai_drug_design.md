@@ -2,7 +2,7 @@
 layout: page
 title: AI for Structural Drug Design
 description: 3D-CNN for fragment-based drug design using PyTorch
-img: assets/img/polymerase.png
+img: assets/img/ai_dd.png
 importance: 1
 category: research
 ---
