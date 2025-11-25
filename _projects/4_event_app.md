@@ -3,6 +3,7 @@ layout: page
 title: Caju Social Club
 description: Full-stack event management web application with Supabase backend
 importance: 4
+img: assets/img/caju.png
 category: software
 ---
 
