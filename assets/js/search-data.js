@@ -61,9 +61,9 @@ ninja.data = [{
           description: "Open source contributions and Google Summer of Code mentorship",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_deepchem/";
-            },},{id: "projects-full-stack-event-app",
-          title: 'Full-Stack Event App',
-          description: "Web application with Supabase backend for event management",
+            },},{id: "projects-caju-social-club",
+          title: 'Caju Social Club',
+          description: "Full-stack event management web application with Supabase backend",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_event_app/";
             },},{
