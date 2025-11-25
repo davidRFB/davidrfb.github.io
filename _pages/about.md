@@ -11,9 +11,9 @@ profile:
   address: >
     Genoa, Liguria, Italy
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am a computational scientist specializing in the intersection of **Machine Learning** and **Molecular Modeling**. I recently completed my PhD in Data Science and Computation at the [University of Bologna](https://www.unibo.it/) and the [Italian Institute of Technology (IIT)](https://www.iit.it/).
@@ -24,6 +24,6 @@ I am a passionate open-source contributor (DeepChem) and a [Google Summer of Cod
 
 ### Core Competencies
 
-* **AI/ML:** PyTorch, Scikit-learn, 3D-CNNs for structure prediction.
-* **Comp Chem:** Amber, OpenMM, Gaussian, CP2K, FEP simulations.
-* **Dev:** Python, Bash, SQL, Docker, HPC (SLURM).
+- **AI/ML:** PyTorch, Scikit-learn, 3D-CNNs for structure prediction.
+- **Comp Chem:** Amber, OpenMM, Gaussian, CP2K, FEP simulations.
+- **Dev:** Python, Bash, SQL, Docker, HPC (SLURM).
