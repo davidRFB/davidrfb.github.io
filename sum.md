@@ -1,6 +1,6 @@
 David Ricardo Figueroa Blanco
 
-Languages 
+Languages
 Spanish (Native), English (Professional Proficiency), Italian (Conversational), Portuguese (Intermediate)
 
 PROFESSIONAL PROFILE
@@ -194,7 +194,7 @@ APIs: Google Gemini, RESTful API integration.
 
 PUBLICATIONS
 
-./_bibliography/papers.bib
+./\_bibliography/papers.bib
 HONORS & AWARDS
 
 Google Summer of Code Mentor Selection (2024) - Recognition of open-source expertise.

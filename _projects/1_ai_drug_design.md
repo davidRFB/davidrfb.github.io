@@ -9,9 +9,10 @@ category: research
 
 ## Artificial Intelligence for Fragment-Based Drug Design
 
-**Collaboration with Prof. Massimiliano Pontil's Lab, Italian Institute of Technology (IIT)**
+Collaboration with Prof. Massimiliano Pontil's Lab, Italian Institute of Technology (IIT)
 
 ### Objective
+
 Develop a Deep Learning model to automatically identify optimal chemical fragments for protein binding pockets, aiding in fragment-based drug design (FBDD).
 
 ### Deep Learning Architecture
@@ -23,6 +24,7 @@ Develop a Deep Learning model to automatically identify optimal chemical fragmen
 ### Large-Scale Data Engineering
 
 Built an end-to-end data pipeline to process the entire Protein Data Bank (PDB):
+
 - Processed ~215,000 PDB entries
 - Implemented rigorous cleaning protocols including:
   - Clustering by protein sequence identity to remove redundancy

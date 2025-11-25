@@ -181,6 +181,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - sum.md
   - purgecss.config.js
   - README.md
   - readme_preview/
