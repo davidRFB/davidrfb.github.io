@@ -2,96 +2,111 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: David Ricardo Figueroa Blanco
+    - name: Location
+      value: Genoa, Italy
     - name: Languages
-      value: English, German
+      value: Spanish (Native), English (Professional), Italian (Conversational), Portuguese (Intermediate)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Data Science and Computation
+      institution: University of Bologna, Bologna, Italy
+      year: 2020 – 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Research Institution: Italian Institute of Technology (IIT), Genoa, Italy"
+        - "Laboratory: Molecular Modeling and Drug Discovery (PI: Dr. Marco De Vivo)"
+        - "Thesis: End-to-End Molecular Modeling of Polymerase Enzymes and AI-Driven Drug Design"
+        - Integration of physics-based simulation methods with data-driven deep learning approaches
+    - title: MSc in Chemistry
+      institution: Universidad de los Andes, Bogotá, Colombia
+      year: 2018 – 2020
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis: Hybrid QM/MM Modeling of Enzymatic Reaction Mechanisms for Plastic Degradation"
+        - Investigated catalytic mechanism of PET-degrading enzymes using QM/MM
+        - "Distinction: Beca Quiero Estudiar Escala (Merit-based Scholarship)"
+    - title: BSc in Chemistry
+      institution: Universidad de los Andes, Bogotá, Colombia
+      year: 2013 – 2018
+      description:
+        - "Thesis: A Quantum Mechanical (QM) Study of Organic Reaction Mechanisms"
+        - "Award: Best Thesis Presentation (2018), Department of Chemistry"
+        - "Distinction: Beca Quiero Estudiar Escala (Merit-based Scholarship)"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Researcher - AI for Structural Drug Design
+      institution: Italian Institute of Technology (IIT), Genoa, Italy
+      year: 2020 – 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed 3D Convolutional Neural Networks (3D-CNN) using PyTorch for fragment-based drug design
+        - Achieved 70% top-1 accuracy and >80% top-5 accuracy on protein-ligand binding prediction
+        - Built end-to-end data pipeline to process ~215,000 PDB entries
+        - Developed PyMOL Plugin for real-time model inference visualization
+        - Utilized MLflow for experiment tracking and model versioning
+    - title: PhD Researcher - Biophysical Modeling of DNA Polymerases
+      institution: Italian Institute of Technology (IIT), Genoa, Italy
+      year: 2020 – 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Conducted over 6 microseconds of unbiased Molecular Dynamics simulations using Amber 2022
+        - Performed Alchemical Free Energy Perturbation (FEP) calculations (>1 μs aggregate sampling)
+        - Applied Alchemical Transfer Method (ATM) using OpenMM at Universitat Pompeu Fabra
+        - Published findings in Journal of Chemical Information and Modeling
+    - title: Google Summer of Code Mentor
+      institution: DeepChem (Open Source Library)
+      year: 2024
       description:
+        - Mentored student project enhancing DeepChem's capabilities
+        - Conducted weekly code reviews and guided Pull Request lifecycle
+        - Authored tutorial on modeling Proteolysis Targeting Chimeras (PROTACs)
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant (Laboratory Instructor)
+      institution: Universidad de los Andes, Bogotá, Colombia
+      year: 2018 – 2020
+      description:
+        - "Courses: General Chemistry Laboratory, Fundamentals of Chemical Analysis Laboratory"
+        - Supervised groups of 25–30 undergraduate students
+        - Delivered pre-lab lectures and guided wet-lab experimental procedures
+        - Graded laboratory reports and provided feedback on scientific writing
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Computational Chemistry & Physics
+      items:
+        - "MD Engines: Amber (Expert), OpenMM (Advanced), GROMACS"
+        - "Quantum Chemistry: Gaussian, CP2K (QM/MM), ORCA"
+        - "Methods: Molecular Dynamics, Alchemical Free Energy (FEP, TI, ATM), Homology Modeling, Docking"
+    - title: Data Science & Machine Learning
+      items:
+        - "Languages: Python (Expert), Bash (Proficient), SQL (Intermediate), JavaScript (Basic)"
+        - "ML Frameworks: PyTorch (Advanced), Scikit-learn, TensorFlow"
+        - "Data: Pandas, NumPy, SciPy, Matplotlib, Seaborn"
+        - "Workflow: MLflow, Git/GitHub, Jupyter Notebooks, PyMOL Plugin Development"
+    - title: Cloud & DevOps
+      items:
+        - "Infrastructure: HPC Environments (SLURM), Supabase"
+        - "APIs: Google Gemini, RESTful API integration"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Google Summer of Code Mentor Selection
+    - year: 2018
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Best Thesis Presentation - Universidad de los Andes, Department of Chemistry
+    - year: 2013 – 2018
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "Beca Quiero Estudiar Escala - Full-tuition merit scholarship"
+    - year: 2013
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Gold Medal - Colombian National Chemistry Olympiad (Universidad de Antioquia)
+        - Silver Medal - Colombian National Chemistry Olympiad (Universidad Nacional de Colombia)
+        - Silver Medal - Colombian National Chemistry Olympiad (Universidad de Antioquia)
