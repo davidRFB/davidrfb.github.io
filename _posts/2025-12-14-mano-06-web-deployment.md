@@ -72,7 +72,7 @@ Hugging Face Spaces expects:
    - Best model checkpoint
    - Minimal dependencies
 2. Connected repo to Hugging Face Spaces
-3. Got public URL: `https://davidrfb97-mano.hf.space`
+3. Got public URL from Hugging Face spaces
 
 The backend was live! ✅
 
@@ -97,32 +97,11 @@ const result = await fetch(`${API_URL}/predict`, {
 });
 ```
 
-Deployed to **GitHub Pages**: [davidrfb97.github.io/Mano](https://davidrfb97.github.io/Mano)
+Deployed to **GitHub Pages**: [davidrfb97.github.io/Mano](https://davidrfb.github.io/Mano)
 
-## Architecture Overview
-
-```
-┌─────────────────┐
-│  User Browser   │
-│  (HTML + JS)    │
-│  - MediaPipe JS │
-│  - Camera       │
-│  - Crop hands   │
-└────────┬────────┘
-         │ HTTP POST
-         │ (cropped image)
-         ▼
-┌─────────────────┐
-│ Hugging Face    │
-│ (Docker)        │
-│  - FastAPI      │
-│  - PyTorch      │
-│  - Model        │
-└────────┬────────┘
-         │
-         ▼
-    Prediction
-```
+##  Overview
+User's browser
+→ MediaPipe JS (hand detection) → Crop + preprocess → FastAPI backend (Hugging Face Spaces) → PyTorch model inference → Return prediction → Display in browser
 
 ## Key Learnings
 
@@ -138,7 +117,7 @@ Deployed to **GitHub Pages**: [davidrfb97.github.io/Mano](https://davidrfb97.git
 - Analytics dashboard (track usage, popular letters)
 - A/B test different models
 
-The app is live and working! Try it at [davidrfb97.github.io/Mano](https://davidrfb97.github.io/Mano) 🤟
+The app is live and working! Try it at [davidrfb.github.io/Mano](https://davidrfb.github.io/Mano) 🤟
 
 ---
 
@@ -148,6 +127,4 @@ The app is live and working! Try it at [davidrfb97.github.io/Mano](https://david
 - Deployment: Hugging Face Spaces (backend), GitHub Pages (frontend)
 - Infrastructure: Docker, Git branches for deployment
 
-**Code**: Check the [GitHub repository](https://github.com/davidRFB/Mano) for the full implementation.
-
-*This is the final part of the MANO project series on building a Colombian Sign Language classifier.*
+**Note:** There is still room for optimization and a lot of WORK IN PROGRESS. 
