@@ -37,7 +37,73 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-selected-as-a-google-summer-of-code-2024-mentor-for-the-deepchem-open-source-library-rocket",
+        },{id: "post-from-local-scripts-to-web-application",
+        
+          title: "From Local Scripts to Web Application",
+        
+        description: "Building and deploying the full-stack LSC translator with FastAPI, Docker, and Hugging Face Spaces",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/mano-06-web-deployment/";
+          
+        },
+      },{id: "post-from-letters-to-words-two-approaches-to-real-time-correction",
+        
+          title: "From Letters to Words: Two Approaches to Real-Time Correction",
+        
+        description: "Building instant autocomplete with tries and smart LLM correction for sign language translation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/mano-05-word-correction/";
+          
+        },
+      },{id: "post-the-landmark-experiment-fixing-train-inference-distribution-mismatch",
+        
+          title: "The Landmark Experiment: Fixing Train-Inference Distribution Mismatch",
+        
+        description: "How adding landmarks to training data fixed live inference instability",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/mano-04-landmark-experiment/";
+          
+        },
+      },{id: "post-experiment-3-hyperparameter-optimization",
+        
+          title: "Experiment 3: Hyperparameter Optimization",
+        
+        description: "Systematic search over models, learning rates, and batch sizes",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/mano-03-hyperparameter-optimization/";
+          
+        },
+      },{id: "post-experiment-2-data-leakage-analysis-and-model-diagnostics",
+        
+          title: "Experiment 2: Data Leakage Analysis and Model Diagnostics",
+        
+        description: "Investigating why 100% test accuracy fails in real-world inference",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/mano-02-data-leakage/";
+          
+        },
+      },{id: "post-experiment-1-initial-dataset-and-baseline-model",
+        
+          title: "Experiment 1: Initial Dataset and Baseline Model",
+        
+        description: "Data collection, model selection, and first training results",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/mano-01-baseline/";
+          
+        },
+      },{id: "news-selected-as-a-google-summer-of-code-2024-mentor-for-the-deepchem-open-source-library-rocket",
           title: 'Selected as a Google Summer of Code 2024 mentor for the DeepChem open-source...',
           description: "",
           section: "News",},{id: "news-published-our-research-on-dna-polymerase-nucleotide-selection-in-the-journal-of-chemical-information-and-modeling-dna",
